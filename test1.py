@@ -20,8 +20,10 @@ def describe_me(name, knowledge):
 result = describe_me(name, knowledge)
 print(result)
 
+import random
 
-hours_practiced = 2
+hours_practiced = random.randint(0, 5)
+print(f"You have practiced for {hours_practiced} hours today.")
 if hours_practiced < 1:
     print("Have you even started yet?")
 elif hours_practiced >= 3:
