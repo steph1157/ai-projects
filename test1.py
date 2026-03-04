@@ -23,8 +23,8 @@ print(result)
 
 hours_practiced = 2
 if hours_practiced < 1:
-    print("Good work! Keep practicing.")
-elif hours_practiced > 3:
+    print("Have you even started yet?")
+elif hours_practiced >= 3:
     print("You're off to a good start! Keep it up!")
 else:
     print(f"Good start, {name}! Show up again tomorrow.")
